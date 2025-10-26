@@ -2,9 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Contacto</title>
 </head>
 <body>
+<header>
+    <h1>Metro de Madrid</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"></a><h2>Inicio</h2></li>
+                <li><a href="servicios.html"></a><h2>Servicios</h2></li>
+                <li><a href="about.html"></a><h2>Sobre nosotros</h2></li>
+                <li><a href="blog.html"></a><h2>Noticias</h2></li>
+                <li><a href="contacto.html"></a><h2>Contacto</h2></li>
+                <li><a href="titulosytarifas.html"></a><h2>Titulos y tarifas</h2></li>
+            </ul>
+        </nav>
+</header>
+<form method="POST" name="formulario" action="/send/">
+    <div>
+        Nombre:
+        <input type="text" name="nombre"  placeholder="Escriba su nombre">
+    </div>
+    <div>
+        Apellidos:
+        <input type="text" name="apellidos" placeholder="Escriba su apellidos">
+    </div>
+    <div>
+        Codigo postal:
+        <input type="number" name="codigo_postal" placeholder="Escriba su codigo postal">
+    </div>
+    <div>
+        Zona tarifaria:
+        <select>
+            <option value="A" selected>A</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="B3">B3</option>
+        </select>
+    </div>
+    <div>
+        DNI:
+        <input type="text" name="DNI" id="DNI" placeholder="Escriba su DNI">
+    </div>
+    <div>
+        Consulta:
+        <input type="text" name="consulta" placeholder="¿Cual es el  motivo de su consulta?">
+    </div>
+    <div>
+        Número de tarjeta de transporte:
+        <input type="text" name="numero_de_serie" placeholder="Escriba el numero de serie de su titulo:">
+        <img src="assets/images/numero_serie.png" alt="Imagen en la que se indica que el numero de serie de la imagen essta en la parte baja de la tarjeta en la izquierda">
+    </div>
+</form>
+<footer>
 
+</footer>
 </body>
 </html>
