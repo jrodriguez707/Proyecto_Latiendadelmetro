@@ -6,6 +6,7 @@
 </head>
 <body>
 <header>
+    <img src="assets/images/Logotipo-Metro_Principal.png" alt="Logotipo del Metro de Madrid">
     <h1>Metro de Madrid</h1>
         <nav>
             <ul>
@@ -18,48 +19,63 @@
             </ul>
         </nav>
 </header>
-<form method="POST" name="formulario" action="/send/">
-
-    Nombre:
-    <input type="text" name="nombre"  placeholder="Escriba su nombre">
-
-
-    Apellidos:
-    <input type="text" name="apellidos" placeholder="Escriba su apellidos">
-
-
-    Codigo postal:
-    <input type="number" name="codigo_postal" placeholder="Escriba su codigo postal">
+<section>
+    <article>
+        <h3>Formulario de contacto</h3>
+        <form method="POST" name="formulario" action="/send/">
+            <fieldset>
+                <legend>Datos personales</legend>    
+                    Nombre:
+                    <input type="text" name="nombre"  placeholder="Escriba su nombre">
 
 
-    Zona tarifaria:
-    <select>
-        <option value="A" selected>A</option>
-        <option value="B1">B1</option>
-        <option value="B2">B2</option>
-        <option value="B3">B3</option>
-        <option value="C1">C1</option>
-        <option value="C2">C2</option>
-        <option value="E1">E1</option>
-        <option value="E2">E2</option>
-    </select>
+                    Apellidos:
+                    <input type="text" name="apellidos" placeholder="Escriba su apellidos">
 
 
-    DNI:
-    <input type="text" name="DNI" id="DNI" placeholder="Escriba su DNI">
+                    Codigo postal:
+                    <input type="number" name="codigo_postal" placeholder="Escriba su codigo postal">
 
 
-    Consulta:
-    <input type="text" name="consulta" placeholder="¿Cual es el  motivo de su consulta?">
+                    Zona tarifaria:
+                    <select>
+                        <option value="A" selected>A</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                        <option value="B3">B3</option>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                        <option value="E1">E1</option>
+                        <option value="E2">E2</option>
+                    </select>
 
 
-    Número de tarjeta de transporte:
-    <input type="text" name="numero_de_serie" placeholder="Escriba el numero de serie de su titulo:">
-    <img src="assets/images/numero_serie.png" alt="Imagen en la que se indica que el numero de serie de la imagen essta en la parte baja de la tarjeta en la izquierda">
+                    DNI:
+                    <input type="text" name="DNI" id="DNI" placeholder="Escriba su DNI">
 
-</form>
+                
+                Consulta:
+                <input type="text" name="consulta" placeholder="¿Cual es el  motivo de su consulta?">
+
+
+                Número de tarjeta de transporte:
+                <input type="text" name="numero_de_serie" placeholder="Escriba el numero de serie de su titulo:">
+                <img src="assets/images/numero_serie.png" alt="Imagen en la que se indica que el numero de serie de la imagen esta en la parte baja de la tarjeta en la izquierda">
+            </fieldset>
+        </form>
+    </article>
+    <article>
+        <h3>Informacion de contacto</h3>
+        <address>
+            <p>Télefono Atención al Cliente: 0 800 8 0830</p>
+            <p>Télefono Emergencias: 800 8 0830</p>
+            <p>Oficina de Contacto:AVDA ALBUFERA, 248 - 28038 - MADRID (MADRID)</p>
+        </address>
+    </article>
+</section>
+
 <footer>
-
+    <p>Gracias por confiar en el transporte público</p>
 </footer>
 </body>
 </html>
