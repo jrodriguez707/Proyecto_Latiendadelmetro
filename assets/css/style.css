@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+:root{
+    --color-primario: #ff002b;
+    --color-secundario: #004e89;
+    --color-blanco: #ffffff;
+    --color-negro: #0a100d;
+}
+.cabecera{
+    background-color: #0a100d;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cabecera__logo{
+    width: 10%;
+    height: 10%;
+}
+.menu{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.cabecera__menu{
+    
+}
