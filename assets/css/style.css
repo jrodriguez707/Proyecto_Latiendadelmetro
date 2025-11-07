@@ -7,7 +7,7 @@
 a{
     text-decoration: none;
 }
-/* Colores corporativos */
+
 :root {
     --metro-azul: #003DA5;
     --metro-rojo: #E30613;
@@ -35,7 +35,7 @@ a{
 }
 
 .cabecera__logo {
-    height: 200px;
+    height: 180px;
     padding: 20px 0px;
 }
 
@@ -48,10 +48,22 @@ a{
     display: flex;
     list-style: none;
     gap: 15px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
 }
 
 .menu__opcion {
     color: var(--metro-blanco);
     font-family: "Sans Stack";
     font-size: 0.7rem;
+
+}
+
+footer{
+    font-family: "Sans Stack";
+    font-size: 1rem;
+    color:#FFFFFF;
+    background-color: #E30613;
+    display: flex;
+    justify-content: center;
 }
